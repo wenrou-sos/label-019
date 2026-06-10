@@ -1,0 +1,60 @@
+{
+  "file_stats": {
+    "total_files": 3,
+    "pdf_count": 0,
+    "docx_count": 3,
+    "doc_count": 0,
+    "success_count": 3,
+    "failed_count": 0,
+    "success_rate": 100.0,
+    "failed_files": [],
+    "skipped_files": []
+  },
+  "content_stats": {
+    "total_clauses": 13,
+    "total_segments": 47,
+    "total_characters": 0,
+    "avg_clause_length": 0.0,
+    "avg_segment_length": 0.0,
+    "min_clause_length": 0,
+    "max_clause_length": 0,
+    "files_by_page_count": {}
+  },
+  "search_stats": {
+    "total_queries": 2,
+    "total_results": 8,
+    "total_search_time_ms": 22,
+    "avg_search_time_ms": 11.0,
+    "avg_results_per_query": 4.0,
+    "queries_by_keyword_count": {
+      "2": 1
+    },
+    "queries_by_mode": {
+      "AND": 1,
+      "OR": 1
+    }
+  },
+  "comparison_stats": {
+    "total_comparisons": 0,
+    "total_matches": 0,
+    "total_compare_time_ms": 0,
+    "avg_compare_time_ms": 0.0,
+    "avg_similarity": 0.0,
+    "max_similarity": 0.0,
+    "min_similarity": 0.0,
+    "match_rate": 0.0,
+    "comparisons_by_threshold": {}
+  },
+  "performance_stats": {
+    "indexing_time_ms": 8379,
+    "extraction_time_ms": 76,
+    "docs_per_second": 0.36,
+    "segments_per_second": 5.61,
+    "memory_usage_mb": 0.0,
+    "index_size_mb": 0.08
+  },
+  "operations": [],
+  "session_start": "2026-06-10T10:11:46.820817",
+  "session_duration_ms": 25,
+  "generated_at": "2026-06-10T10:11:46.845856"
+}

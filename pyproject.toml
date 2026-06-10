@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contract-retriever"
+version = "1.0.0"
+description = "合同条款快速检索与比对命令行工具"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Contract Retriever Team" }]
+license = { text = "MIT" }
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "pdfplumber>=0.10.0",
+    "python-docx>=1.1.0",
+    "whoosh>=2.7.4",
+    "jieba>=0.42.1",
+    "scikit-learn>=1.3.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0",
+    "colorama>=0.4.6",
+]
+
+[project.scripts]
+contract-retriever = "contract_retriever.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
